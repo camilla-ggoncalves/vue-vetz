@@ -3,10 +3,8 @@
     <h2 style="display: flex; justify-content: center;">🚀 Exemplo Vue Router</h2>
 
     <nav class="navigation">
-      <RouterLink to="/home" class="nav-link">🏠 Home</RouterLink>
-      <RouterLink to="/products" class="nav-link">📦 Produtos</RouterLink>
-      <RouterLink to="/about" class="nav-link">ℹ️ Sobre</RouterLink>
-      <RouterLink to="/contact" class="nav-link">📞 Contato</RouterLink>
+      <RouterLink to="/home" class="nav-link">HOMEPAGE</RouterLink>
+      <RouterLink to="/about" class="nav-link">SOBRE NÓS</RouterLink>
     </nav>
 
 
