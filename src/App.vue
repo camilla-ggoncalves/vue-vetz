@@ -4,6 +4,11 @@ import NavComponent from '../src/components/NavComponent.vue';
 
 <template>
   <NavComponent></NavComponent>
+
+  <router-link to="/home">Homepage</router-link>
+  <router-link to="/about">Sobre Nós</router-link>
+
+  <router-view /> <!-- Para aparecer o conteúdo das páginas -->
 </template>
 
 <style scoped>
@@ -15,8 +20,5 @@ import NavComponent from '../src/components/NavComponent.vue';
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
 }
 </style>
