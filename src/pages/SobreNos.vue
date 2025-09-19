@@ -63,10 +63,12 @@ const stats = ref({
 })
 
 const team = ref([
-  { id: 1, name: 'Ana Silva', role: 'CEO & Fundadora', emoji: '👩‍💼' },
+  { id: 1, name: 'Isadora', role: 'CEO & Fundadora', },
   { id: 2, name: 'Carlos Santos', role: 'CTO', emoji: '👨‍💻' },
   { id: 3, name: 'Maria Costa', role: 'Designer UX/UI', emoji: '👩‍🎨' },
-  { id: 4, name: 'João Oliveira', role: 'Desenvolvedor Senior', emoji: '👨‍💻' }
+  { id: 4, name: 'Ana Silva', role: 'CEO & Fundadora', emoji: '👩‍💼' },
+  { id: 5, name: 'João Oliveira', role: 'Desenvolvedor Senior', emoji: '👨‍💻' }
+  
 ])
 
 const values = ref([
@@ -172,6 +174,18 @@ const values = ref([
 .member-avatar {
   font-size: 3rem;
   margin-bottom: 10px;
+}
+
+.member-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #bdbdbd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-member h3 {
